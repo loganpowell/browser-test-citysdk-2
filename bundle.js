@@ -15412,6 +15412,10 @@ var _citysdk = _interopRequireDefault(require("citysdk"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+/*
+ browserify src/index.js -o bundle.js -t [ babelify --presets [ @babel/preset-env ]
+ */
+console.log("BLOOPING IN THE BLOOPER");
 (0, _citysdk["default"])({
   "vintage": "2017",
   "geoHierarchy": {
@@ -15420,7 +15424,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
   "sourcePath": ["acs", "acs5"],
   "values": ["B19083_001E"],
   // GINI index
-  "statsKey": "<your key here>",
   "geoResolution": "500k"
 }, function (e, r) {
   return console.log(r);
