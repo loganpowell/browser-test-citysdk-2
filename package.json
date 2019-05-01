@@ -27,6 +27,6 @@
     ]
   },
   "dependencies": {
-    "citysdk": "^2.0.9"
+    "citysdk": "^2.0.10"
   }
 }
