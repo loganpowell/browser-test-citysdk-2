@@ -15421,6 +15421,10 @@ console.log("BLOOPING IN THE BLOOPER");
 (0, _citysdk["default"])({
   "vintage": "2017",
   "geoHierarchy": {
+    "state": {
+      "lat": 28.2639,
+      "lng": -80.7214
+    },
     "county": "*"
   },
   "sourcePath": ["acs", "acs5"],
